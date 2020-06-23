@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ex005 - DOM</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      color: #fff;
+      background-color: #124;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Iniciando Estudos sobre o DOM</h1>
+  <p>Aqui vai o resultado</p>
+  <p>Apredendo a usar o <strong>DOM</strong> em JavaScript</p>
+  <div id="msg">Clique em mim</div>
+  <script>
+    /*
+    var d = window.document.getElementById('msg');
+    d.style.background = "#ccc";
+    d.innerText = "Yeah";
+    */
+    var d = window.document.querySelector("div#msg");
+    d.style.background = "#125";
+  </script>
+</body>
+</html>
