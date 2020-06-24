@@ -1,0 +1,26 @@
+/**/
+body{
+    color: #fff;
+    font-size: 1em;
+    background-color: #124;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+input,button{
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+button{
+    color: #fff;
+    cursor: pointer;
+    background-color: #135;
+    border: 1px solid #fff;
+}button:hover{
+    background-color: #124;
+}
+ 
