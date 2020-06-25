@@ -1,4 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Arial, sans-serif;
+}
 body{
 	color: #fff;
 	background-color: #000;
+}
+input,button{
+	padding: 5px;
+	font-size: 1.2em;
+	border-radius: 4px;
+}
+button{
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: #124;
+}
+button:hover{
+	color: #124;
+	background-color: #fff;
+	border: 1px solid #124;
 }
