@@ -2,20 +2,38 @@
 	margin: 0;
 	padding: 0;
 	border: none;
+	font-size: 100%;
 	font-family: Arial, sans-serif;
 }
 body{
 	color: #fff;
 	background-color: #000;
 }
-input,button{
+.container{
+	height: 400px;
+	display: flex;
+	padding: 10px;
+	max-width: 700px;
+	margin: 20px auto;
+	border-radius: 5px;
+	align-items: center;
+	flex-direction: column;
+	background-color: #124;
+}
+.title{
 	padding: 5px;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	border: 2px dashed #fff;
+}
+input,.button{
+	padding: 5px;
+	font-size: 1.1em;
 	border-radius: 4px;
 }
-button{
+.button{
 	color: #fff;
 	cursor: pointer;
+	transition: 1s;
 	border: 1px solid #fff;
 	background-color: #124;
 }
@@ -23,4 +41,10 @@ button:hover{
 	color: #124;
 	background-color: #fff;
 	border: 1px solid #124;
+}
+div{
+	margin: 35px 0;
+}
+.resp{
+	font-size: 1.2em;
 }
