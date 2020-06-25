@@ -11,7 +11,10 @@ body{
 	background-color: #000;
 }
 b{
-	color: #ce2929;;
+	color: #ce2929;
+}
+i{
+	color: #4CAF50;
 }
 .container{
 	height: 300px;

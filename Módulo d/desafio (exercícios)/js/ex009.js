@@ -1,8 +1,9 @@
-//var país = prompt("Qual é o seu de origem país?");
 function verificar() {
-	var pais = document.querySelector("#pais");
+	var pais = document.querySelector("#pais").value;
 	var res = document.querySelector("#res");
-	if (país == "Moçambique" || "moçambique") {
-		res.innerHTML = naci.value;
-	}	
+	if (pais == "Moçambique" && "moçambique") {
+		res.innerHTML = `Voce nasceu em ${pais}, voce é <i>Moçabicano</i>`;
+	}else{
+		res.innerHTML = `Voce nasceu em ${pais}, voce é <b>extrangeiro</b>`;
+	}
 }
