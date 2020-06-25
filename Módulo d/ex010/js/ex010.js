@@ -1,7 +1,6 @@
 function calcular() {
-	var txtvel = document.querySelector("#txtvel");
+	var vel = Number(document.querySelector("#txtvel").value);
 	var res = document.querySelector("#res");
-	var vel = Number(txtvel.value);
 	res.innerHTML = `Sua velocidade atual é de <strong>${vel}km/h</strong>`;
 	if (vel > 60) {
 		res.innerHTML += `<br>Voce Está <b>multado</b> por excesso de velocidade.`;
