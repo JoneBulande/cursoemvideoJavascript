@@ -8,6 +8,9 @@ body{
 header{
 
 }
+#msg,#img{
+	margin: 20px 0;
+}
 section{
 	color: #124;
 	width: 500px;
@@ -15,7 +18,7 @@ section{
 	margin: 0 auto;
 	border-radius: 10px;
 	background-color: #fff;
-	box-shadow: 5px 5px 5px #3F51B5;
+	box-shadow: 5px 5px 5px #991240;
 
 }
 footer{
