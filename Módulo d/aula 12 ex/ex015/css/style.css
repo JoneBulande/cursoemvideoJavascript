@@ -1,0 +1,26 @@
+body{
+	color: #fff;
+	font-size: 15pt;
+	text-align: center;
+	background-color: #124;
+	font-family: Arial, sans-serif;
+}
+header{
+
+}
+#msg,#img{
+	margin: 20px 0;
+}
+section{
+	color: #124;
+	width: 500px;
+	padding: 15px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #991240;
+
+}
+footer{
+	font-style: italic;
+}
