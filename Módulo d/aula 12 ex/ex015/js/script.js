@@ -2,8 +2,7 @@ function verificar() {
 	var ano = new Date().getFullYear(),
 		fAno = document.getElementById('txtAno').value,
 		res = document.querySelector("#res"),
-		idade = (ano - fAno);
-		
+		idade = (ano - fAno);		
 		if (fAno.length != "" && fAno < ano && fAno.length >= 4) {
 			var fSex = document.getElementsByName("radsex"),
 				genero = "",
