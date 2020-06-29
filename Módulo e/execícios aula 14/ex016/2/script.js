@@ -7,7 +7,7 @@ function contar() {
 			if (n2 != " " && n2 != "") {
 				if (n3 != " " && n3 != "") {
 					for(i=n1; i<=n2; i+=n3){
-						console.log(`valor: ${i}`);
+						res.innerHTML +=  ${i};
 					}
 				}
 			}
