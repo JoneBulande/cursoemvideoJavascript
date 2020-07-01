@@ -58,11 +58,12 @@ p{
 
 }
 ::-webkit-scrollbar{
-	background: #2d455d; 
+	background: #263a4e;
+	border: 1px solid #3c5064;
 }
 ::-webkit-scrollbar-thumb {
 	cursor: pointer;
 	border-right: 0;
-	background: #234;
+	background: #23374c;
 	border: 1px solid #3c5064;
 }
