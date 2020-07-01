@@ -57,3 +57,13 @@ p{
 	scroll-behavior:auto;
 
 }
+
+::-webkit-scrollbar{
+	background: #2d455d; 
+}
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: #234;
+	border: 1px solid #7c91a5;
+	border-right: 0;
+}

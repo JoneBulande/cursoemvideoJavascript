@@ -47,7 +47,22 @@ p{
 	background-color: #234;
 }
 .res{
-	max-width: 200px;
-	margin: 10px auto;
+	padding: 5px;
+	width: 180px;
+	color: #46688b;
+	font-size: 1.2em;
+	max-height: 300px;
+	overflow-x: hidden;
+	border-radius: 4px;
+	scroll-behavior:auto;
+}
 
+::-webkit-scrollbar{
+	background: #2d455d; 
+}
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: #234;
+	border: 1px solid #7c91a5;
+	border-right: 0;
 }
