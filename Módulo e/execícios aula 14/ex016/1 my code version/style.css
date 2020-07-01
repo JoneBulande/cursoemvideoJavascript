@@ -39,12 +39,12 @@ p{
 	width: 190px;
 	cursor: pointer;
 	transition: 0.5s;
-	border: 1px solid #7c91a5;
-	background-color: #3c5064;
+	border: 1px solid #3c5064;
+	background-color: #23374c;
 }
 .btn:hover{
 	color: #fff;
-	background-color: #234;
+	background-color: #263a4e;
 }
 .res{
 	padding: 5px;
@@ -55,14 +55,14 @@ p{
 	overflow-x: hidden;
 	border-radius: 4px;
 	scroll-behavior:auto;
-}
 
+}
 ::-webkit-scrollbar{
 	background: #2d455d; 
 }
 ::-webkit-scrollbar-thumb {
 	cursor: pointer;
+	border-right: 0;
 	background: #234;
 	border: 1px solid #7c91a5;
-	border-right: 0;
 }
